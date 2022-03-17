@@ -1,0 +1,62 @@
+.navlink{
+  font-size: x-large;
+}
+.section1{
+    background-image: url("/images/landingpage.jpg");
+    background-size: cover;
+    height: 65vh;
+    width: 100;
+    display: flex;
+    justify-content: center;
+}
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+
+  /* card group aka PRIMARY */
+
+  .center1{
+      margin-left: 23%;
+      margin-right: -50%;
+      padding: 1%;
+  }
+
+  .col-md-3 .card:hover {
+    box-shadow: 0 40px 60px -20px orange;
+    z-index: 100;
+  }
+  .col-md-3 .card-primary:hover .card-title{
+    color: orange;
+  }
+  
+  .col-md-3 .card .card-body > .badge {
+    margin-bottom: 24px;
+  } 
+  .col-md-3 .card .card-body {
+    padding: 0 32px;
+  }
+  .col-md-3 .card .card-title {
+    color: #261c6a;
+    font-size: 26px;
+    line-height: 1.54;
+    font-weight: 900;
+    margin-bottom: 24px;
+  }
+  .col-md-3 .card .card-text {
+    color: #261c6a;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+  .col-md-3 .card .card-footer {
+    padding: 48px 0 56px;
+    background: transparent;
+    border:0;
+  }
