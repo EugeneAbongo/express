@@ -6,13 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FAQ</title>
     <link rel="stylesheet" href="css/faq.css" />
+    <link rel="stylesheet" href="css/footer.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   </head>
   <body>
+
+    <main class="container sticky-top">
+      <!-- add navbar -->
+      <nav class="navbar  navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/logo.jpg" alt="" width="20%" height="10%" ></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ">
+              <a class="nav-link active navlink" aria-current="page" href="#">Home</a>
+              <a class="nav-link active navlink" href="pricing.html">Pricing</a>
+              <a class="nav-link active navlink" href="about.html">About</a>
+              <a class="nav-link active navlink" href="faq.html">FaQ</a>
+              <a class="nav-link active navlink" href="contact.html">Contact</a>
+             
+            </div>
+          </div>
+        </div>
+      </nav>
+    
+    </main>
+   
+   <section class="section12">
     <div class="container">
-      <h2>Frequently Asked Questions</h2>
-      <h5>The most common questions about how our business works and what can do for you.</h5>
+      <div class="center5">
+        <h2>Frequently Asked Questions</h2>
+        <h5>The most common questions about how our business works and what can do for you.</h5>
+      </div>
       <div class="accordion">
         <div class="accordion-item">
           <button id="accordion-button-1" aria-expanded="false">
@@ -106,6 +134,60 @@
 
       </div>
     </div>
+    </section>
+
+       <!-- footer -->
+
+       <!-- Start of the Footer -->
+<section class="container-fluid footer mt-4">
+  <footer class="mt-3">
+    <div class="frow">
+      <div class="fcol"> 
+        <h3 class="">Express Data Networks<div class="underline"><span></span></div></h3>          
+        
+        <p>
+          Welcome...
+          We endevour to provide you with reliable internet at the fairest prices in the market.
+        </p>
+      </div>
+      <div class="fcol">
+        <h3>Contacts <div class="underline"><span></span></div></h3>
+        <p>Star House(4th Floor)</p>
+        <p>Ruiru Town(Opp. Main Stage)</p>
+        <p>Nairobi, Kenya</p>
+        <p class="email-id">info@expressdata.co.ke</p>
+        <h6>+254 703 247 247</h6>
+      </div>
+      <div class="fcol">
+        <h3>Quick Links <div class="underline"><span></span></div></h3>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contacts</a></li>
+        </ul>
+      </div>
+      <div class="fcol">
+        <h3>Newsletter <div class="underline"><span></span></div></h3>
+        <form>
+          <i class="far fa-envelope"></i>
+          <input type="email" placeholder="Write Your Email" required>
+          <button type="submit"><i class="fas fa-arrow-right"></i></button>
+        </form>
+        <div class="social-icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-pinterest"></i>
+        </div>
+      </div>
+    </div>
+    <hr>
+ 
+  </footer>
+</section>
+<!-- End of the Footer -->
+  
     <script src="js/faq.js"></script>
   </body>
 </html>
